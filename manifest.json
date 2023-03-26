@@ -1,0 +1,19 @@
+{
+    "name": "Time Tracking",
+    "description": "A simple time tracking Power-Up for Trello.",
+    "author": {
+      "name": "Your Name",
+      "email": "your.email@example.com",
+      "url": "https://example.com"
+    },
+    "connector": {
+      "url": "https://your-hosted-power-up.example.com/index.html",
+      "icon": {
+        "url": "https://your-hosted-power-up.example.com/icon.png"
+      }
+    },
+    "capabilities": {
+      "card-buttons": "cardButtons"
+    }
+  }
+  
