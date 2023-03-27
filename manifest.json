@@ -2,12 +2,12 @@
     "name": "Time Tracking",
     "description": "A simple time tracking Power-Up for Trello.",
     "author": {
-      "name": "Your Name",
-      "email": "your.email@example.com",
-      "url": "https://example.com"
+      "name": "Noah Brammer",
+      "email": "noah.brammer@ceebogroup.com",
+      "url": "https://rhodetimetracking.com"
     },
     "connector": {
-      "url": "https://your-hosted-power-up.example.com/index.html",
+      "url": "https://rhodetimetracking.com",
       "icon": {
         "url": "https://your-hosted-power-up.example.com/icon.png"
       }
