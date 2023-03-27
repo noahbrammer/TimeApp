@@ -1,19 +1,18 @@
 {
-    "name": "Time Tracking",
-    "description": "A simple time tracking Power-Up for Trello.",
-    "author": {
-      "name": "Noah Brammer",
-      "email": "noah.brammer@ceebogroup.com",
-      "url": "https://rhodetimetracking.com"
-    },
-    "connector": {
-      "url": "https://rhodetimetracking.com",
-      "icon": {
-        "url": "https://rhodetimetracking.com"
-      }
-    },
-    "capabilities": {
-      "card-buttons": "cardButtons"
+  "name": "Time Tracking",
+  "description": "A simple time tracking Power-Up for Trello.",
+  "author": {
+    "name": "Noah Brammer",
+    "email": "noah.brammer@ceebogroup.com",
+    "url": "https://rhodetimetracking.com"
+  },
+  "connector": {
+    "url": "https://rhodetimetracking.com",
+    "icon": {
+      "url": "https://raw.githubusercontent.com/noahbrammer/TimeApp/main/icon.png"
     }
+  },
+  "capabilities": {
+    "card-buttons": "cardButtons"
   }
-  
+}
