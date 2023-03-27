@@ -18,21 +18,5 @@ const stopTimer = async function (t) {
   t.render();
 };
 
-TrelloPowerUp.initialize({
-  'card-buttons': async function (t, options) {
-    const timerRunning = await t.get('card', 'shared', 'timerRunning', false);
-    if (timerRunning) {
-      return [{
-        icon: 'https://raw.githubusercontent.com/noahbrammer/TimeApp/main/icon.png',
-        text: 'Stop Timer',
-        callback: stopTimer
-      }];
-    } else {
-      return [{
-        icon: 'https://raw.githubusercontent.com/noahbrammer/TimeApp/main/icon.png',
-        text: 'Start Timer',
-        callback: startTimer
-      }];
-    }
-  }
-});
+window.startTimer = startTimer;
+window.stopTimer = stopTimer;
