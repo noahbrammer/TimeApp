@@ -23,13 +23,13 @@ TrelloPowerUp.initialize({
     const timerRunning = await t.get('card', 'shared', 'timerRunning', false);
     if (timerRunning) {
       return [{
-        icon: './icon.png',
+        icon: 'https://raw.githubusercontent.com/noahbrammer/TimeApp/main/icon.png',
         text: 'Stop Timer',
         callback: stopTimer
       }];
     } else {
       return [{
-        icon: './icon.png',
+        icon: 'https://raw.githubusercontent.com/noahbrammer/TimeApp/main/icon.png',
         text: 'Start Timer',
         callback: startTimer
       }];
