@@ -6,6 +6,25 @@
   <body>
     <!-- Your Power-Up content goes here -->
     <script src="power-up.js"></script>
+    <script>
+      TrelloPowerUp.initialize({
+        'card-buttons': async function (t, options) {
+          const timerRunning = await t.get('card', 'shared', 'timerRunning', false);
+          if (timerRunning) {
+            return [{
+              icon: 'https://raw.githubusercontent.com/noahbrammer/TimeApp/main/icon.png',
+              text: 'Stop Timer',
+              callback: window.stopTimer
+            }];
+          } else {
+            return [{
+              icon: 'https://raw.githubusercontent.com/noahbrammer/TimeApp/main/icon.png',
+              text: 'Start Timer',
+              callback: window.startTimer
+            }];
+          }
+        }
+      });
+    </script>
   </body>
 </html>
-
