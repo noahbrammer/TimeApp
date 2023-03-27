@@ -9,7 +9,7 @@
     "connector": {
       "url": "https://rhodetimetracking.com",
       "icon": {
-        "url": "https://your-hosted-power-up.example.com/icon.png"
+        "url": "https://rhodetimetracking.com"
       }
     },
     "capabilities": {
