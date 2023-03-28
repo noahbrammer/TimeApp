@@ -14,13 +14,17 @@
             return [{
               icon: 'https://raw.githubusercontent.com/noahbrammer/TimeApp/main/icon.png',
               text: 'Stop Timer',
-              callback: window.stopTimer
+              callback: function (t) {
+                return window.stopTimer(t);
+              }
             }];
           } else {
             return [{
               icon: 'https://raw.githubusercontent.com/noahbrammer/TimeApp/main/icon.png',
               text: 'Start Timer',
-              callback: window.startTimer
+              callback: function (t) {
+                return window.startTimer(t);
+              }
             }];
           }
         }
